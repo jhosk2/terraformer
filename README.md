@@ -1,0 +1,7 @@
+# terraformer
+run terraform
+ENV TF_VERSION=0.11.14
+ENV REPOSITORY_URL=
+ENV PROJECT_PATH=
+ENV TF_COMMAND=plan
+ENV TF_WORKSPACE=default
