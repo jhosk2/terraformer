@@ -4,7 +4,7 @@ RUN apk add git
 
 # initialize terraform 
 WORKDIR /workspace/lib
-ENV TF_VERSION=0.11.3
+ENV TF_VERSION=0.11.14
 COPY download_tf.sh .
 RUN /workspace/lib/download_tf.sh
 
